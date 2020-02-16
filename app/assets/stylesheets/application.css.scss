@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ 
+ /*Import bootstrap css styling*/
+ @import "bootstrap";
+
+
+body{
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,151,245,1) 21%, rgba(4,188,226,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,151,245,1) 21%, rgba(4,188,226,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,151,245,1) 21%, rgba(4,188,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#04bce2",GradientType=1);
+}
+
+#id{
+
+}
